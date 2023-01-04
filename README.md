@@ -1,5 +1,5 @@
 # zsh-fnm
-A simple zsh plugin for the fast and simple Node.js version manager (`fnm`)
+A simple zsh plugin for the fast and simple Node.js version manager (`fnm`).
 
 ## Install
 Using the [:zap: Zap](https://www.zapzsh.org/) minimal zsh plugin manager, add the following to your `.zshrc`

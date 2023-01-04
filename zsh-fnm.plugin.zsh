@@ -12,7 +12,7 @@ fi
 eval "$(fnm env --shell zsh --use-on-cd)"
 
 # Completions directory for `fnm` command
-COMPLETIONS_DIR="${0:A:h}/completions"
+local COMPLETIONS_DIR="${0:A:h}/completions"
 
 # Only regenerate completions if older than 24 hours, or does not exist
 if [[ ! -f "$COMPLETIONS_DIR/_fnm"  ||  ! $(find "$COMPLETIONS_DIR/_fnm" -newermt "24 hours ago" -print) ]]; then
