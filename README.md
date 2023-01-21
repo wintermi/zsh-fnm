@@ -1,5 +1,5 @@
 # zsh-fnm
-A simple zsh plugin for the fast and simple Node.js version manager (`fnm`).
+A zsh plugin for the fast and simple Node.js version manager (`fnm`).
 
 ## Install
 Using the [:zap: Zap](https://www.zapzsh.org/) minimal zsh plugin manager, add the following to your `.zshrc`
@@ -10,7 +10,7 @@ plug "wintermi/zsh-fnm"
 ```
 
 ## Prerequisite Checks
-A simple check will be performed to verify that `fnm` has been installed:
+A check will be performed to verify that `fnm` has been installed:
 
 - [`fnm`](https://fnm.vercel.app/) - :rocket: Fast Node Manager
 
