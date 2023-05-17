@@ -3,7 +3,7 @@
 
 # Exit if the 'fnm' command can not be found
 if ! (( $+commands[fnm] )); then
-    echo "ERROR: 'fnm' command not found"
+    echo "WARNING: 'fnm' command not found"
     return
 fi
 
