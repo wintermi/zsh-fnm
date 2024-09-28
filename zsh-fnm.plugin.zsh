@@ -3,13 +3,12 @@
 
 # Exit if the 'fnm' command can not be found
 if ! (( $+commands[fnm] )); then
-    echo "WARNING: 'fnm' command not found"
     return
 fi
 
 # Add 'fnm' environment variables for 'zsh'
 # Add hook to change Node version on change directory
-eval "$(fnm env --shell zsh --use-on-cd)"
+source <(fnm env --shell zsh --use-on-cd)
 
 # Completions directory for `fnm` command
 local COMPLETIONS_DIR="${0:A:h}/completions"
